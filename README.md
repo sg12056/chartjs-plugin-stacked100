@@ -60,7 +60,7 @@ new Chart(document.getElementById("my-chart"), {
       { label: "good", data: [10, 8], backgroundColor: "rgba(100, 181, 246, 0.6)" }
     ]
   },
-  options: {
+  options: {showAllTooltips: true,
     plugins: {
       stacked100: { enable: true }
     }
